@@ -2,6 +2,8 @@
     background-color: aqua;
     display: flex;
     flex-wrap: wrap;
+    padding: 5px;
+    margin:5px;
     
 }
 .box1{
@@ -14,23 +16,25 @@
 }
 .box2{
     width: 270px;
-    height: 200px;
+    height: 160px;
     color: black;
     background-color: burlywood;
     margin: 10px;
     padding: 10px;
+    overflow: scroll;
 }
 .box3{
     width: 270px;
-    height: 200px;
+    height: 160px;
     padding: 10px;
     background-color: antiquewhite;
     color: black;
     margin: 10px;
+    overflow: scroll;
 }
 .box4{
     width: 600px;
-    height: 200px;
+    height: 160px;
     padding: 10px;
     color: black;
     margin: 10px;
@@ -38,7 +42,7 @@
 }
 .box5{
     width: 270px;
-    height: 200px;
+    height: 160px;
     padding: 10px;
     color: black;
     margin: 10px;
@@ -46,15 +50,15 @@
 }
 .box6{
     width: 270px;
-    height: 200px;
+    height: 160px;
     padding: 10px;
     color: rgb(44, 168, 60);
     margin: 10px;
     background-color: blue;
 }
 .box7{
-    width: 270px;
-    height: 200px;
+    width: 290px;
+    height: 160px;
     padding: 10px;
     color: black;
     margin: 10px;
