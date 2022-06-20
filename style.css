@@ -21,7 +21,7 @@
     background-color: burlywood;
     margin: 10px;
     padding: 10px;
-    overflow: scroll;
+    
 }
 .box3{
     width: 270px;
@@ -30,7 +30,7 @@
     background-color: antiquewhite;
     color: black;
     margin: 10px;
-    overflow: scroll;
+   
 }
 .box4{
     width: 600px;
@@ -64,3 +64,30 @@
     margin: 10px;
     background-color: darkmagenta;
 }
+body{
+    maargin:0;
+    padding0;
+    
+}
+.friend{
+    text-align: center;
+    line-height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: ease-in 0.3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.01, 1.1, .87, -0.15);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+.friend:hover{
+    background-color: beige;
+    color: black;
+}
+
